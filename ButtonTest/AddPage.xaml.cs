@@ -1,3 +1,5 @@
+using CommunityToolkit.Mvvm.Input;
+
 namespace ButtonTest;
 
 public partial class AddPage : ContentPage

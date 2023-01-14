@@ -12,12 +12,9 @@ namespace ButtonTest
     {
 
         [RelayCommand]
-        static async Task GoAddPage()
+        async Task GoAddPage()
         {
-
             await Shell.Current.GoToAsync("AddPage");
-            Console.WriteLine("test");
-
         }
     } 
 }

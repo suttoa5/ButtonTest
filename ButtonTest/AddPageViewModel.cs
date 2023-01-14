@@ -11,10 +11,9 @@ namespace ButtonTest
     public partial class AddPageViewModel : ObservableObject
     {
         [RelayCommand]
-        static async Task GoMainPage()
+        async Task GoMainPage()
         {
             await Shell.Current.GoToAsync("///MainPage");
-            Console.WriteLine("test");
         }
     }
 }
