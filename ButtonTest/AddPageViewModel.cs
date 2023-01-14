@@ -13,7 +13,7 @@ namespace ButtonTest
         [RelayCommand]
         static async Task GoMainPage()
         {
-            await Shell.Current.GoToAsync("MainPage");
+            await Shell.Current.GoToAsync("///MainPage");
             Console.WriteLine("test");
         }
     }
